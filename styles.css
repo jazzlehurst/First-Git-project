@@ -29,6 +29,11 @@ body {
     padding: 40px 32px;
     width: 320px;
     flex-shrink: 0;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card-title {
@@ -76,7 +81,7 @@ body {
 
 .download-button {
     width: fit-content;
-    background-color: #e6e5e0;
+    background-color: #c5c2b1;
     border: none;
     border-radius: 999px;
     padding: 14px 24px;
